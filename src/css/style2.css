@@ -1,0 +1,114 @@
+body {
+    background-color: #cbd3cb;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.modo-escuro {
+    background-color: #212121;
+    color: #f5f5f5;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+}
+
+header .imagem-botao:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+header .imagem-botao {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.cabecalho {
+    padding: 10px;
+    background-color: rgb(59, 59, 59);
+}
+
+.cabecalho .logo {
+    display: inline-block;
+    max-width: 50px;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.cabecalho nav li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    font-size: 17px;
+}
+
+.container nav li a {
+    text-decoration: none;
+}
+
+.menu-lateral {
+    background-color: rgba(251, 251, 250, 0.644);
+    height: 280px;
+    width: 280px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 2px 2px #666;
+}
+
+.menu-lateral li a {
+    text-decoration: none;
+}
+
+
+.criar-novo {
+    list-style-image: url(./images/lightbulb-solid.svg);
+}
+
+/* .acompanhar-tarefas {
+    list-style-image: url(./images/book-open-solid.svg);
+} */
+
+.comunidade {
+    list-style-image: url(./images/house-solid.svg);
+}
+
+.prazos {
+    list-style-image: url(./images/calendar-days-regular.svg);
+}
+
+.relatorios {
+    list-style-image: url(./images/flag-solid.svg);
+}
+
+.menu-lateral li {
+    height: 60px;
+}
+
+.paragrafo-central {
+    font-size: 20px;
+    margin: 70px;
+}
+
+.container li a:hover {
+    display: block;
+    /* background-color: rgb(176, 224, 230); */
+    background-color: dimgray;
+}
+
+
+
